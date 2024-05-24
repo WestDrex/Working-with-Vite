@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #33373E; */
+    background-color: #1e1e22;
+    font-family: Inter, sans-serif;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #21222a;
+    padding: 30px 25px;
+    height: 90px;
+}
+nav h4{
+    margin: 0;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 23px;
+    margin-right: auto;
+}
+nav h3{
+    margin: 0;
+    color: #DEEBF8;
+    font-weight: 600;
+}
+nav img{
+    height: 50px;
+    margin-right: 10px;
+}
+.container{
+    /*width: 1200px;*/
+    
+    justify-content: right;
+    padding: 57px 27px;
+    margin: 20px 10px;
+    max-width: 1300px; 
+
+    background-image: url('./Components/Images/iconz2.png'); 
+    background-size:auto 70%; 
+    background-repeat: no-repeat;
+    /* background-position: right center;  OR right 75%*/
+    background-position: right 75%;
+    /* background-position-y: center ; */
+     
+}
+
+.container h1{
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: 700px;
+    font-size: 40px;
+    letter-spacing: -0.05em;
+}
+.container ul{
+    margin-top: 46px;
+}
+.container li{
+    list-style-type: disc;
+    font-size: 50px;
+    color: #FFFFFF;
+    line-height: 50px;
+    font-weight: 400px;   
+    padding-block: 10px;
+}
+li::marker {
+    color: #61DAFB;
+    
+}
+
+
+/*.container{
+    1)How to map through data
+*/
+   
